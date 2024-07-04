@@ -2,6 +2,7 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   
+  
   <section class="hero">
     <div class="container">
       <header class="header mb-5">
@@ -19,8 +20,10 @@
                     <h4>Mario Andhika Arya Pangestu</h4>
                     <p class="text-secondary mb-1">Full Stack Developer</p>
                     <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
-                    <button class="btn btn-primary">Follow</button>
-                    <a href="mailto:habiburrohman2students.amikom.ac.id" class="btn btn-outline-primary">Message</a>
+                    <button class="btn btn-primary">
+                      <a href="https://www.instagram.com/mars04_/" class="text-white">Follow</a>
+                    </button>
+                    <a href="mailto:marioandhikaaryapangestu@students.amikom.ac.id" class="btn btn-outline-primary">Message</a>
                   </div>
                 </div>
               </div>
@@ -31,69 +34,46 @@
                   <h6 class="mb-0">
                     <i class="fas fa-globe mr-2 icon-inline"></i>Website
                   </h6>
-                  <span class="text-secondary">https://bootdey.com</span>
+                  <span class="text-secondary">
+                    <a href="https://github.com/MarioAndhika" target="_blank">https://github.com/MarioAndhika</a>
+                  </span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
                     <i class="fab fa-github mr-2 icon-inline"></i>Github
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">
+                    <a href="https://github.com/MarioAndhika" target="_blank">https://github.com/MarioAndhika</a>
+                  </span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
                     <i class="fab fa-twitter mr-2 icon-inline text-info"></i>Twitter
                   </h6>
-                  <span class="text-secondary">@bootdey</span>
+                  <span class="text-secondary">
+                    <a href="https://github.com/MarioAndhika" target="_blank">https://github.com/MarioAndhika</a>
+                  </span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
                     <i class="fab fa-instagram mr-2 icon-inline text-danger"></i>Instagram
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">
+                    <a href="https://www.instagram.com/mars04_/" target="_blank">https://www.instagram.com/mars04_/</a>
+                  </span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                   <h6 class="mb-0">
                     <i class="fab fa-facebook mr-2 icon-inline text-primary"></i>Facebook
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">
+                    <a href="https://web.facebook.com/mario.andhika.52/" target="_blank">https://web.facebook.com/mario.andhika.52/</a>
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-md-8">
-            <div id="portfolioCarousel" class="carousel slide mb-3" data-ride="carousel" data-interval="3000">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assets/img/hasil mobil.png" class="d-block w-100" alt="Project 1">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Project 1</h5>
-                    <p>Project 1 Description</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/MG-5-GT.jpg" class="d-block w-100" alt="Project 2">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Project 2</h5>
-                    <p>Project 2 Description</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="https://via.placeholder.com/728x400" class="d-block w-100" alt="Project 3">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Project 3</h5>
-                    <p>Project 3 Description</p>
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
             <div class="card mb-3">
               <div class="card-body">
                 <div class="row">
@@ -233,6 +213,11 @@ export default {
   font-size: 1.25rem;
   color: #777;
   animation: fadeInUp 1s;
+}
+
+.btn-primary a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .card {
