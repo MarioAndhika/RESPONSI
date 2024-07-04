@@ -195,7 +195,7 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background: #f5f5f5;
+  background: linear-gradient(to right, #ff6e7f, #bfe9ff); 
 }
 
 .header {
