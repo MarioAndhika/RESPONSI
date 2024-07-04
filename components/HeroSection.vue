@@ -61,6 +61,39 @@
             </div>
           </div>
           <div class="col-md-8">
+            <div id="portfolioCarousel" class="carousel slide mb-3" data-ride="carousel" data-interval="3000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/hasil mobil.png" class="d-block w-100" alt="Project 1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Project 1</h5>
+                    <p>Project 1 Description</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/MG-5-GT.jpg" class="d-block w-100" alt="Project 2">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Project 2</h5>
+                    <p>Project 2 Description</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://via.placeholder.com/728x400" class="d-block w-100" alt="Project 3">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Project 3</h5>
+                    <p>Project 3 Description</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
             <div class="card mb-3">
               <div class="card-body">
                 <div class="row">
@@ -68,7 +101,7 @@
                     <h6 class="mb-0">Full Name</h6>
                   </div>
                   <div class="col-sm-9 text-secondary">
-                    Habibur Rohman
+                    Mario Andhika Arya Pangestu
                   </div>
                 </div>
                 <hr>
@@ -77,7 +110,7 @@
                     <h6 class="mb-0">Email</h6>
                   </div>
                   <div class="col-sm-9 text-secondary">
-                    habiburrohman2students.amikom.ac.id
+                    marioandhikaaryapangestu@students.amikom.ac.id
                   </div>
                 </div>
                 <hr>
@@ -193,11 +226,13 @@ export default {
 .header h1 {
   font-size: 2.5rem;
   color: #333;
+  animation: fadeInDown 1s;
 }
 
 .header p {
   font-size: 1.25rem;
   color: #777;
+  animation: fadeInUp 1s;
 }
 
 .card {
@@ -214,5 +249,37 @@ export default {
 
 .progress-bar {
   transition: width 0.6s ease;
+}
+
+.carousel .carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  filter: invert(1);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>
